@@ -1,0 +1,60 @@
+:root{
+    --heading-color: blue;
+    --text-color: red;
+}
+#heading{
+    color: var(--heading-color);
+}
+.desc{
+    color: var(--text-color);
+}
+
+.box1{
+    background-color: green;
+    width: calc(25% + 20px);
+    height: 40px;
+}
+.box2{
+    background-color:blueviolet;
+    width: 50%;
+    height: 40px;
+}
+.box3{
+    background-color:brown;
+    width: 75%;
+    height: 40px;
+}
+.box4{
+    background-color:orangered;
+    width: 100%;
+    height: 40px;
+}
+/* a::after{
+    content: attr(href);
+} */
+.box1::after{
+    content: attr(title);
+}
+/* BT1 */
+.box-1 {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}    
+.box-2{
+    width: 50%;
+    height: 50%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* BT2 */
+.button{
+     /* Thêm phần đệm, cho nút dày lên */
+     padding: 8px 16px;
+     font-size: 50px;
+     color: #fff;
+     background-color: rgba(240, 82, 35, 0.8);
+     /* Bỏ gạch chân mặc định của thẻ a */
+     text-decoration: none;
+}

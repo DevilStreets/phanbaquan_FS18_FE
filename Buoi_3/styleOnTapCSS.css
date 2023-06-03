@@ -1,0 +1,15 @@
+:root{
+    --my-color: blue;
+    --my-font-size: 100px;
+    --div-color: red;
+}
+h1{
+    color: var(--my-color);
+}
+h2{
+    color:var(--my-color);
+}
+div p{
+    color: var(--div-color);
+    font-size:var(--my-font-size);
+}
