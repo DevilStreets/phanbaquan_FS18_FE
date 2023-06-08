@@ -1,0 +1,45 @@
+/* BT 1 */
+/* .box {
+    height: 500px;
+    background-image: url(https://www.dodge.com/content/dam/fca-brands/na/dodge/en_us/wallpapers/desktop/2021/expanded/2021-dodge-wallpaper-challenger-06.jpg.image.1440.jpg);
+    background-size: 150px;
+    background-repeat: repeat-y;
+} */
+
+/* BT 2 */
+/* .box {
+    width: 300px;
+    height: 500px;
+    background-image: url(https://cdn.sforum.vn/sforum/wp-content/uploads/2018/11/3-8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+/* BT 3 */
+/* .box{
+    width: 500px;
+    height: 500px;
+    background-image: url(https://cdn.sforum.vn/sforum/wp-content/uploads/2018/11/3-8.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 20px dashed purple;
+    padding: 20px;
+    box-sizing: border-box;
+    background-origin: border-box;
+} */
+    /* border-box: hiển thị hình ảnh từ border trở vào
+    padding-box: hiển thị hình ảnh từ padding trở vào, ko lấn ra được phần border
+    content-box: hình ảnh chỉ hiển thị trong phần content, ko lấn ra được phần padding, border */
+
+/* BT 4 */
+.box{
+    width: 500px;
+    height: 300px;
+    background-image: url(https://cdn.sforum.vn/sforum/wp-content/uploads/2018/11/3-8.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    border: 10px solid purple;
+    box-sizing: border-box;
+    background-position: bottom right;
+}
+    /* background-position: điều chỉnh vị trí hình ảnh trong box */
