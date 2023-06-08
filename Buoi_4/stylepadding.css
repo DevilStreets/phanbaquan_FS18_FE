@@ -1,0 +1,15 @@
+:root{
+    --text-color: white;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    color:var(--text-color)
+}
+.box1{
+    background-color: blue;
+    padding: 10px;
+}
+.box2{
+    background-color: brown;
+}

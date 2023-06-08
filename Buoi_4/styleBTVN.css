@@ -1,0 +1,10 @@
+.box{
+    /* content: "Box 1";
+    display: block; */
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    padding: 16px;
+    box-sizing: border-box;
+    border: 50px;
+}
