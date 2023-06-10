@@ -1,0 +1,72 @@
+/* Mới tạo 1 trang web luôn luôn nhớ reset lại trang web */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* #wapper{
+
+} */
+#header{
+    width: 100vw;
+    height: 46.5px;
+    background-color: #000;
+}
+/* #nav{
+    
+} */
+ul{
+    list-style: none;
+}
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav>li>a{
+    color: white;
+    text-transform: uppercase;
+}
+#nav li a{
+    /* color: white; */
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    padding: 24px;
+    line-height: 46.5px;
+}
+/* #nav>li:hover>a{
+    color: #000;
+    background-color:rgba(235, 230, 215, 0.5);
+}
+#nav .subnav>li:hover>a{
+    color: #000;
+    background-color:rgba(235, 230, 215, 0.5);
+} */
+/* hoặc có thể dùng dấu "," để dùng chung css */
+#nav>li:hover>a, #nav .subnav>li:hover>a{
+    color: #000;
+    background-color:rgba(235, 230, 215, 0.5);
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav .subnav a{
+    color: #000;
+}
+#nav .subnav{
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px #000;
+    display: none;
+}
+/* #slider{
+
+}
+#content{
+
+}
+#footer{
+
+} */
